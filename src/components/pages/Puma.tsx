@@ -41,7 +41,7 @@ export const Puma = () => {
                 {
                     pumaModels.map(puma => {
                         return (
-                            <Link key={puma.id} to={`/puma/${puma.id}`}>
+                            <Link key={puma.id} to={`/puma/${puma.model}/${puma.id}`}>
                                 <img className={styles.image}
                                      src={puma.picture}
                                      alt={`Puma ${puma.model}}`}/>

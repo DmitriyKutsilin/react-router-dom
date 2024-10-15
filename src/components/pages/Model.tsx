@@ -15,11 +15,11 @@ const sneakersModels: SneakersModelsType = {
 
 type Props = {};
 export const Model = (props: Props) => {
-    const {model, id} = useParams()
+    const {brand, model, id} = useParams()
     // console.log(params)
 
-    const currentModel = model
-        ? sneakersModels[model].find(el => el.id === Number(id))
+    const currentModel = brand
+        ? sneakersModels[brand].find(el => el.id === Number(id))
         : null
 
     return (
