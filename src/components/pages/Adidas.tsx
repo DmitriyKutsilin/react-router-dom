@@ -4,7 +4,7 @@ import adidasModel2
     from '../../assets/adidas/PostMove_Mid_Cloudfoam_Super_Lifestyle_Basketball_Mid_Classic_Shoes_Black_GY7163_01_standard.webp'
 import adidasModel3 from '../../assets/adidas/Superstar_XLG_Shoes_Black_IG9777_01_standard.webp'
 import styles from './pages.module.css'
-import {Link, Outlet, Route, Routes} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export type   SneakerType = {
     id: number

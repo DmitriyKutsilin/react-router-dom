@@ -1,11 +1,5 @@
 import * as React from "react";
-import {createRoot} from "react-dom/client";
-import {
-    createBrowserRouter,
-    RouterProvider,
-    Route,
-    Link, Navigate, RouteObject, Outlet, redirect,
-} from "react-router-dom";
+import {createBrowserRouter, Navigate, Outlet, RouteObject,} from "react-router-dom";
 import App from "../App";
 import {Error404} from "../components/pages/Error404";
 import {Adidas} from "../components/pages/Adidas";
@@ -14,7 +8,6 @@ import {Abibas} from "../components/pages/Abibas";
 import {Prices} from "../components/pages/Prices";
 import {Model} from "../components/pages/Model";
 import {ProtectedPage} from "../components/pages/ProtectedPage";
-import {ProtectedRoute} from "./ProtectedRoute";
 import {Login} from "../components/pages/Login";
 
 export const PATH = {
