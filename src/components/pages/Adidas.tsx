@@ -44,9 +44,8 @@ export const Adidas = () => {
             <h2>ADIDAS</h2>
             <div className={styles.imagesSection}>
                 {
-                    adidasModels.map((adidas, index) => {
+                    adidasModels.map((adidas) => {
                         return (
-                            // <Link key={adidas.id} to={`/adidas/${adidas.id}`}>
                             <Link key={adidas.id} to={`/adidas/${adidas.model}/${adidas.id}`}>
                                 <img
                                     className={styles.image}

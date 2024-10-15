@@ -13,8 +13,8 @@ const sneakersModels: SneakersModelsType = {
     puma: pumaModels,
 }
 
-type Props = {};
-export const Model = (props: Props) => {
+
+export const Model = () => {
     const {brand, model, id} = useParams()
     // console.log(params)
 
